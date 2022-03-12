@@ -18,20 +18,16 @@ class Team
   end
 end
 
-Team1 = Team.new("Giants",67,45,8)
-Team1.show_team_result
+team1 = Team.new("Giants",67,45,8)
+team2 = Team.new("Tigers",60,53,7)
+team3 = Team.new("Dragons",60,55,5)
+team4 = Team.new("BayStars",56,58,6)
+team5 = Team.new("Carp",52,56,12)
+team6 = Team.new("Swallows",41,69,10)
 
-Team2 = Team.new("Tigers",60,53,7)
-Team2.show_team_result
-
-Team3 = Team.new("Dragons",60,55,5)
-Team3.show_team_result
-
-Team4 = Team.new("BayStars",56,58,6)
-Team4.show_team_result
-
-Team5 = Team.new("Carp",52,56,12)
-Team5.show_team_result
-
-Team6 = Team.new("Swallows",41,69,10)
-Team6.show_team_result
+team1.show_team_result
+team2.show_team_result
+team3.show_team_result
+team4.show_team_result
+team5.show_team_result
+team6.show_team_result
